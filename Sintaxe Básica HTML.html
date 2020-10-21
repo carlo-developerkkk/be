@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Sintaxe Básica Html</title>
+
+	<link rel="stylesheet" href="design.css" >
+	
+<style>
+
+	h1{ 
+		font-family: Cursive;
+		color: #000000;
+		text-align: center;
+	}
+	
+	
+</style>
+
+</head>
+
+<body> 
+
+<h1> Formulário </h1>
+
+
+<fieldset>
+
+<FORM>
+
+<p><h3>
+
+Dados pessoais:
+
+</h3></p>
+
+	Nome: <p><input type = "text" name="nome" size="50"
+placeholder="Digite seu nome" required ><br></p>
+	Sobrenome:<p><input type = "text" name = "sobrenome" size="50"
+placeholder="Digite seu sobrenome" required 	><br></p>
+	Email: <p><input type = "text" name = "email" size="50"
+placeholder="ex: rockleevsgaaraamv@gmail.com" required ><br></p>
+<br>
+
+<p><h3>Classe pertencente</h3></p>
+
+ <input type = "radio" name ="Classe" value = tour> Turística
+	<p></p><input type = "radio" name ="Classe" value = exe> Executiva</p>
+	<p><input type = "radio" name ="Classe" value = lux> Luxo</p>
+<br>
+
+<p><h3>Opcionais</h3></p>
+
+<p><input type = "checkbox" name = "opcionais" value = "Seguro"> Seguro </p>
+	<p><input type = "checkbox" name = "opcionais" value = "Bolsa Viagem"> Bolsa Viagem</p>
+	<p><input type = "checkbox" name = "opcionais" value = "Translado"> Translado</p>
+	<p><input type = "checkbox" name = "opcionais" value = "City Tour"> City Tour </p>
+<br>
+
+<p><h3>Selecione o seu destino</h3></p>
+
+ <p><select name = "destinos">
+	<option value "Bonito"> Bonito </option>
+	<option value "Fernando de Noronha"> Fernando de Noronha </option>
+	<option value "Natal"> Natal </option>
+	<option value "Rio de Janeiro"> Rio de Janeiro </option>
+	<option value "Gramado"> Gramado </option>
+	</select></p>
+
+<h3>Caso queira deixar um comentário(opcional):</h3>
+	
+	<p><textarea rows = 10 cols = 60" placeholder= "Este campo é opcional." ></textarea>
+</p>
+
+
+	<button class = "submit" >Enviar</button>
+	<button class = "reset" name = reset >Limpar</button>
+</FORM>	
+
+	</fieldset>
+	
+</body>
+</html>
