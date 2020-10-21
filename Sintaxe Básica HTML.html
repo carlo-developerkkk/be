@@ -122,6 +122,18 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+	
+	
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
 	h1{ 
 		font-family: Cursive;
@@ -129,6 +141,7 @@ input[type=text], select, textarea {
 		text-align: center;
 	}
 	
+
 	
 </style>
 
@@ -153,7 +166,7 @@ Dados pessoais:
 placeholder="Digite seu nome" required ><br></p>
 	Sobrenome:<p><input type = "text" name = "sobrenome" size="50"
 placeholder="Digite seu sobrenome" required 	><br></p>
-	Email: <p><input type = "text" name = "email" size="50"
+	Email: <p><input type = "email" name = "email" size="50"
 placeholder="ex: rockleevsgaaraamv@gmail.com" required ><br></p>
 <br>
 
